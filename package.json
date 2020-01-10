@@ -1,0 +1,28 @@
+{
+    "name": "salesforce-code-snippets",
+    "displayName": "Salesforce Code Snippets",
+    "description": "Code snippets for Salesforce plataform (Apex and Lightning).",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "'apex'",
+                "path": "./snippets/apex.json"
+            },
+            {
+                "language": "'javascript'",
+                "path": "./snippets/javascript.json"
+            },
+            {
+                "language": "'html'",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}
